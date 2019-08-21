@@ -2,6 +2,7 @@ package com.example.sh_library_app;
 
 import android.os.Bundle;
 
+import com.example.sh_library_app.util.Util;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
     private TextView mTextMessage;
@@ -56,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.add(R.id.container, homeFragment);
         transaction.commit();
+
+        try {
+            mTextMessage.setText(Util.getProperty("name", getApplicationContext()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
