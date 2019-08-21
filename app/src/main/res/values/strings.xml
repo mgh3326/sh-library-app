@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">sh-library-app</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">서현도서관</string>
+    <string name="title_home">홈</string>
+    <string name="title_dashboard">열람실</string>
+    <string name="title_notifications">식단</string>
     <string name="title_all">All</string>
 
     <!-- TODO: Remove or change this placeholder text -->
