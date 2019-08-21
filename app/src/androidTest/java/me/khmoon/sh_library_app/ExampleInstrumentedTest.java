@@ -1,4 +1,4 @@
-package com.example.sh_library_app;
+package me.khmoon.sh_library_app;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.sh_library_app", appContext.getPackageName());
+        assertEquals("me.khmoon.sh_library_app", appContext.getPackageName());
     }
 }

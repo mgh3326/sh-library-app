@@ -1,8 +1,10 @@
-package com.example.sh_library_app;
+package me.khmoon.sh_library_app;
 
 import android.os.Bundle;
 
-import com.example.sh_library_app.util.Util;
+import me.khmoon.sh_library_app.R;
+
+import me.khmoon.sh_library_app.util.Util;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;

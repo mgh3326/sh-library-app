@@ -1,4 +1,4 @@
-package com.example.sh_library_app;
+package me.khmoon.sh_library_app;
 
 import org.junit.Test;
 

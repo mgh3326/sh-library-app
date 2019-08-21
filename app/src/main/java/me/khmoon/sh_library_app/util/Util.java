@@ -1,4 +1,4 @@
-package com.example.sh_library_app.util;
+package me.khmoon.sh_library_app.util;
 
 import android.content.Context;
 import android.content.res.AssetManager;
